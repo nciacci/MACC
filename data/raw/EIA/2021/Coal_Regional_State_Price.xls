@@ -1,0 +1,2346 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Cumberland AMT', Courier;
+  font-size: 6.7pt;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.bodydate
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.byline
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.contentproclabel
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.contentprocname
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.contents
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.contenttitle
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 4ex;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3ex;
+  text-align: center;
+  width: 100%;
+}
+.continued
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  border: 0.1pt solid #BFBFBF;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+}
+.dataemphasis
+{
+  border: 0.1pt solid #BFBFBF;
+  color: #000000;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  border: 0.1pt solid #BFBFBF;
+  color: #000000;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  border: 0.1pt solid #BFBFBF;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+}
+.datafixed
+{
+  border: 0.1pt solid #BFBFBF;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  border: 0.1pt solid #BFBFBF;
+  color: #000000;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  border: 0.1pt solid #BFBFBF;
+  color: #000000;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.document
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#0000FF
+}
+a:active {
+color:#0000FF
+}
+.errorbanner
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  border: 1pt solid #000000;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  border: 0.75pt solid #000000;
+  border-collapse: separate;
+  border-spacing: 0.25pt;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #BBBBBB;
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  color: #000000;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.headeremphasisfixed
+{
+  background-color: #BBBBBB;
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  color: #000000;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.headerempty
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.headerfixed
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.headersandfooters
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #BBBBBB;
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  color: #000000;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #BBBBBB;
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  color: #000000;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.indextitle
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  border: 0.1pt solid #BFBFBF;
+  color: #000000;
+  font-family: Arial, Hev;
+  font-size: 10pt;
+}
+.list
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagesprocname
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagestitle
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.paragraph
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #BBBBBB;
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.rowheaderemphasisfixed
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.rowheaderempty
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrong
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  border-bottom-color: #0096D7;
+  border-bottom-width: 1.3pt;
+  border-left-color: #000000;
+  border-left-width: 0.1pt;
+  border-right-color: #BFBFBF;
+  border-right-width: 0.1pt;
+  border-style: solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 2pt;
+  font-family: Times, Arial, Hev;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter10
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter2
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter3
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter4
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter5
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter6
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter7
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter8
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemfooter9
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle10
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle2
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle3
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle4
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle5
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle6
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle7
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle8
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systemtitle9
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+.systitleandfootercontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: .001pt;
+  border-collapse: separate;
+  border-color: #BFBFBF;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-spacing: 0.1pt;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.usertext
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  color: #000000;
+  font-family: 'Cumberland AMT', Courier;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+<style type="text/css">
+table {
+  mso-displayed-decimal-separator:"\.";
+  mso-displayed-thousand-separator:"\,";
+}
+</style>
+</head>
+<body onload="startup()" onunload="shutdown()" class="body" style=" text-align: center;">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" style=" text-align: center;" cellspacing="0" cellpadding="2" rules="rows" frame="below" border="0" bordercolor="#BFBFBF" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr><td class="linecontent" style=" text-align: left;" colspan="13"><span style=" color: #0096D7; font-family: Times; font-size: 14pt; font-weight: bold; text-align: center;">Table&nbsp;34.&nbsp;&nbsp;Average&nbsp;Price&nbsp;of&nbsp;Coal&nbsp;Delivered&nbsp;to&nbsp;End&nbsp;Use&nbsp;Sector&nbsp;by&nbsp;Census&nbsp;Division&nbsp;and&nbsp;State,&nbsp;2021&nbsp;and&nbsp;2020</span><br><span style=" font-family: Times; font-size: 12pt; font-weight: bold; text-align: center;">(dollars&nbsp;per&nbsp;short&nbsp;ton)</span></td>
+</tr>
+<tr><th id="ch1b1b1" class="header" style=" text-align: center;" scope="col"><span style=" border-bottom-color: #FFFFFF; border-bottom-width: 0pt; border-color: #000000; border-left-width: 1px; border-right-width: 1px; border-style: none; border-top-width: 1px; text-align: center;"></span></th>
+<th id="ch1b1b5" class="header" style=" text-align: center;" colspan="4" scope="colgroup"><span style=" border-bottom-color: #BFBFBF; border-bottom-width: 0.5pt; border-color: #000000; border-left-width: 1px; border-right-width: 1px; border-style: none; border-top-width: 1px; text-align: center;">2021</span></th>
+<th id="ch1b1b9" class="header" style=" text-align: center;" colspan="4" scope="colgroup"><span style=" border-bottom-color: #BFBFBF; border-bottom-width: 0.5pt; border-color: #000000; border-left-width: 1px; border-right-width: 1px; border-style: none; border-top-width: 1px; text-align: center;">2020</span></th>
+<th id="ch1b1b13" class="header" style=" text-align: center;" colspan="4" scope="colgroup"><span style=" border-bottom-color: #BFBFBF; border-bottom-width: 0.5pt; border-color: #000000; border-left-width: 1px; border-right-width: 1px; border-style: none; border-top-width: 1px; text-align: center;">Annual Percent Change</span></th>
+</tr>
+<tr><th id="ch1b1b15a" class="header" style=" text-align: left;" scope="col">Census Division<br/>and State</th>
+<th id="ch1b1b17b" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Electric<br/>Power<sup>1</sup></th>
+<th id="ch1b1b18c" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Other<br/>Industrial</th>
+<th id="ch1b1b19d" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Coke</th>
+<th id="ch1b1b20e" class="header" format:#,##0.00 style=" text-align: right; width: 1.1in;" scope="col">Commercial<br/>and<br/>Institutional</th>
+<th id="ch1b1b22f" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Electric<br/>Power<sup>1</sup></th>
+<th id="ch1b1b23g" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Other<br/>Industrial</th>
+<th id="ch1b1b24h" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Coke</th>
+<th id="ch1b1b25i" class="header" format:#,##0.00 style=" text-align: right; width: 1.1in;" scope="col">Commercial<br/>and<br/>Institutional</th>
+<th id="ch1b1b27j" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Electric<br/>Power<sup>1</sup></th>
+<th id="ch1b1b28k" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Other<br/>Industrial</th>
+<th id="ch1b1b29l" class="header" format:#,##0.00 style=" text-align: right; width: 0.9in;" scope="col">Coke</th>
+<th id="ch1b1b30m" class="header" format:#,##0.00 style=" text-align: right; width: 1.1in;" scope="col">Commercial<br/>and<br/>Institutional</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">New England</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">       117.65</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Connecticut</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Maine</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.69</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Massachusetts</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      New Hampshire</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        80.98</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Rhode Island</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">Middle Atlantic</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        38.71</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        87.46</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">       124.33</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        33.49</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        86.65</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">       129.33</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        15.59</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         0.93</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -7.55</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>        -3.87</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      New Jersey</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>       -13.17</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      New York</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -9.04</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Pennsylvania</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        88.38</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">       124.33</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        84.55</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">       129.33</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        20.06</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         4.53</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -7.55</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>        -3.87</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">East North Central</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        39.04</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        71.02</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">       134.54</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        53.86</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        38.70</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        69.99</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">       136.37</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        65.44</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         0.88</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         1.47</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -1.34</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>       -17.70</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Illinois</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">        50.11</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">        53.47</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         1.74</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>       -17.24</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -5.34</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>        -6.28</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Indiana</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       102.11</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       102.18</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         8.80</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>         -0.7</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.53</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">         1.70</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Michigan</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        87.60</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        91.78</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.56</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -4.55</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         4.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Ohio</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       104.07</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       119.44</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       103.27</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       135.47</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -6.18</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.77</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>       -11.83</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Wisconsin</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        36.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        85.24</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        35.31</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        80.66</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">       159.13</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         4.62</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.68</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">West North Central</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        26.47</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        28.27</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        81.58</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        25.67</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        27.69</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        82.38</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         3.12</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         2.09</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>        -0.97</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Iowa</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        27.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        33.69</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        26.49</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        34.98</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.47</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -3.69</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">s</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Kansas</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        24.74</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        26.52</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -6.71</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">s</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Minnesota</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        38.40</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        49.46</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        34.49</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        49.14</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        11.34</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.65</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>        -6.72</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Missouri</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        29.42</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        48.22</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        27.55</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        50.13</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         6.79</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -3.81</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">         2.33</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Nebraska</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        20.16</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        21.18</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        24.28</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -4.82</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      North Dakota</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        21.00</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        21.06</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">s</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.30</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>       -13.77</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      South Dakota</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        31.43</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        30.90</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         1.72</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.07</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">South Atlantic</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        57.93</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        97.46</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">       122.13</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        56.94</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        94.21</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         1.74</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         3.45</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -7.52</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Delaware</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      District of Columbia</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Florida</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        62.69</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       110.43</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        58.80</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       103.02</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         6.62</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         7.19</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Georgia</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        55.85</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        95.02</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        53.72</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        91.60</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         3.97</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         3.73</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Maryland</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         6.76</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        11.13</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      North Carolina</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        97.85</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        96.50</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.49</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         1.40</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">         0.81</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      South Carolina</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       106.87</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       101.06</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -7.24</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.75</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Virginia</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        50.88</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        89.29</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        52.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        91.37</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">       131.99</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -3.89</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -2.28</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -7.32</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      West Virginia</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -2.83</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.75</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -7.49</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">East South Central</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        97.77</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        99.20</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         0.99</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -1.44</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         9.45</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          0.8</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Alabama</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        40.21</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        89.64</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        39.06</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        92.81</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         2.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -3.42</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         9.45</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Kentucky</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        42.05</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       104.78</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        41.78</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       105.38</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.65</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -0.57</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          0.8</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Mississippi</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -1.31</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         4.63</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Tennessee</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        43.31</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        90.92</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        42.77</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        90.63</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         1.26</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">s</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">West South Central</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        32.97</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        75.43</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        29.73</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        81.72</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        10.90</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -7.70</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Arkansas</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        10.64</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -2.14</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Louisiana</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        23.46</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>       -18.56</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Oklahoma</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        30.15</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       113.51</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        27.49</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">       115.78</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         9.68</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -1.96</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Texas</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        91.75</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        86.95</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         9.55</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.52</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">Mountain</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        35.71</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        61.08</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        35.94</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        60.50</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -0.64</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         0.96</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>       -11.87</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Arizona</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        41.87</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        38.82</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         7.86</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -2.01</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Colorado</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        29.69</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        31.73</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -6.43</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -6.85</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>       -15.92</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Idaho</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -7.83</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Montana</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        45.09</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        43.06</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         5.56</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         4.71</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">         2.04</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Nevada</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        78.58</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        75.60</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         2.34</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         3.94</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      New Mexico</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        49.09</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        47.52</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         3.30</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         2.82</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Utah</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        43.93</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        50.63</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        44.99</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        53.73</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -2.36</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -5.77</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Wyoming</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        51.52</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        48.18</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.58</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         6.93</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>        -1.47</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">Pacific</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        48.45</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        83.06</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        43.94</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        82.09</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        10.26</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         1.18</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>        -0.50</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Alaska</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        49.19</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        49.26</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">s</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;" nowrap>        -0.50</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      California</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        83.16</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        81.96</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         1.46</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Hawaii</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         2.68</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Oregon</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">        37.61</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>        -4.60</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" text-align: left; width: 2.5in;"><span style=" text-align: center;"><pre style=" text-align: center;">      Washington</pre></span></td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">            w</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;" nowrap>         -0.8</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">         0.62</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 0.9in;">          -</td>
+<td class="data" format:#,##0.00 style=" text-align: right; width: 1.1in;">          -</td>
+</tr>
+<tr><td class="data" style=" color: #000000; font-weight: bold; text-align: left; width: 2.5in;">U.S. Total</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        37.32</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        57.89</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">       122.37</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        83.00</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        36.14</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">        57.18</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">       127.16</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;">        84.52</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         3.27</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;">         1.24</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 0.9in;" nowrap>        -3.77</td>
+<td class="data" format:#,##0.00 style=" color: #000000; font-weight: bold; text-align: right; width: 1.1in;" nowrap>        -1.80</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<a name="IDX1"></a>
+<a name="IDX1"></a>
+<div>
+<div class="paragraph" style=" text-align: left;"><span style=" font-family: Calibri; font-size: 10pt; text-align: center;">- = No data reported.</span></div>
+<div class="paragraph" style=" text-align: left;"><span style=" font-family: Calibri; font-size: 10pt; text-align: center;">w = Data withheld to avoid disclosure.</span></div>
+<div class="paragraph" style=" text-align: left;"><span style=" font-family: Calibri; font-size: 10pt; text-align: center;">s = Value is less than 0.5 of the table metric, but value is included in any associated total.</span></div>
+<div class="paragraph" style=" text-align: left;"><span style=" font-family: Calibri; font-size: 10pt; text-align: center;"><sup>1</sup> The electric power sector (electric utilities and independent power producers) comprises electricity-only and combined-heat-and-power(CHP) plants whose primary business is to sell electricity, or electricity and heat, to the public (i.e. NAICS 22 plants).</span></div>
+<div class="paragraph" style=" text-align: left;"><span style=" font-family: Calibri; font-size: 10pt; text-align: center;">Sources: U.S. Energy Information Administration Form EIA-923, &#39;Power Plant Operations Report,&#39; and Form EIA-3, &#39;Quarterly Survey of Non-Electric Sector Coal Data.&#39; Prior to third quarter 2014, coke plant data was collected under Form EIA-5, &#39;Quarterly Coal Consumption and Quality Report - Coke Plants.’</span></div>
+</div>
+<br>
+</div>
+</body>
+</html>

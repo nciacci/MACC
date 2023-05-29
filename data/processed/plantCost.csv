@@ -1,0 +1,16 @@
+### Capital and OM data is primarily pulled from table 3 of the AEO at https://www.eia.gov/outlooks/aeo/assumptions/ . Storage costs are from Sergi et al's battery costs converted to 2021$ and normalized to a 60% match,,,,,,
+### This data has values for both CT and CC gas plants and are separated by EIA data,,,,,,
+"### Values for fuel prices are pulled from the 2022 AEO and are stored in the fuelCost.csv. Note that ""primary_fuel_type"" names should align between the files",,,,,,
+primary_fuel,capital_cost_per_kw,fixed_om_per_kw_year,variable_om_per_mwh,storage_per_kw,heat_rate_btu_per_kwh,Notes
+Coal,4074,42.49,4.71,0,8638,USC
+Gas,1201,14.76,2.67,0,6431,CC single shaft
+Gas_CC,1201,14.76,2.67,0,6431,CC single shaft
+Gas_SC,785,7.33,4.71,0,9905,CT-industrial
+Oil,1294,17.06,4.92,0,9124,CT-Aeroderivative
+Solar,1327,15.97,0,1000,3412,PV with tracking
+Wind,1718,27.57,0,1000,3412,Wind
+Hydro,3083,43.78,1.46,0,3412,conventional hydropower
+Geothermal,3076,143.22,1.21,0,3412,geothermal
+CSP,7895,89.39,3.5,0,3412,Solar Thermal
+Nuclear,6695,127.35,2.48,0,10443,Nulear-LWR
+Biomass,4524,131.62,5.06,0,13500,Biomass

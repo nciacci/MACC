@@ -1,0 +1,16 @@
+"### Honestly, I'm not sure where I got these values from. I previously thought they were from AEO 2020, but I couldn't track these values down. My current best guess is in the third box here, but again the values don't line up. I can't figure out where these values were originally sourced from. ",
+"### Note that the ""primary_fuel"" column here should match those in plant_cost.csv",
+"### Values for fuel prices are pulled from a variety of sources and converted from default measurements to energy measurements using EIA (https://www.eia.gov/energyexplained/units-and-calculators/). Values were pulled from 2020. Coal: (https://www.eia.gov/coal/data/browser/#/topic/45?agg=1,0&geo=vvvvvvvvvvvvo&freq=A&start=2008&ctype=linechart&ltype=pin&rtype=s&pin=&rse=0&maptype=0); Natural Gas: (https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm); Oil: (https://www.eia.gov/dnav/pet/pet_pri_refoth_dcu_nus_m.htm)",
+primary_fuel,fuel_price_per_mmbtu
+Coal,3.211
+Gas,1.935
+Gas_CC,1.935
+Gas_SC,1.935
+Oil,12.4
+Solar,0
+Wind,0
+Hydro,0
+Geothermal,0
+CSP,0
+Nuclear,0
+Biomass,0

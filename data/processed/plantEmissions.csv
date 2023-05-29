@@ -1,0 +1,16 @@
+### Heat rates and emissions were gathered from EIA: https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2020.pdf,
+"### Technically waste and biomass emit, but we may want to set those values to 0 (or some lower number) because over a lifecycle biomass is burned then regrown (net zero)",
+primary_fuel,co2_lb_per_mmbtu
+Coal,206
+Gas,117
+Gas_SC,117
+Gas_CC,117
+Oil,117
+Solar,0
+Wind,0
+Waste,117
+Hydro,0
+Geothermal,0
+CSP,0
+Biomass,206
+Nuclear,0

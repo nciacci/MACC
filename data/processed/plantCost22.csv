@@ -1,0 +1,16 @@
+### Costs Taken From NREL 2022 Electricity ATB https://atb.nrel.gov/electricity/2022/about,,,,,,,
+### This data has values for both CT and CC gas plants and are separated by EIA data,,,,,,,
+### Values are converted from 2020 dollars to 2022 dollars using CPI inflation calculator and factor of 1.04,,,,,,,
+primary_fuel,capital_cost_per_kw,fixed_om_per_kw_year,variable_om_per_mwh,storage_cap_per_kw,storage_om_per_kw_year,heat_rate_btu_per_kwh,Notes
+Coal,4978.7192,119.5168,14.5912,0,0,8638,USC
+Gas,1026.286133,27.9448,1.8304,0,0,6431,CC single shaft
+Gas_CC,1026.286133,27.9448,1.8304,0,0,6431,CC single shaft
+Gas_SC,2220.199,60.0184,4.472,0,0,9905,CT-industrial
+Oil,1345.76,17.7424,5.1168,0,0,9124,CT-Aeroderivative
+Solar,1164.615192,20.74980024,0,726.7342342,19.2981982,3412,PV with tracking
+Wind,1413.984,43.8776,0,726.7342342,19.2981982,3412,Wind
+Hydro,3206.32,45.5312,1.5184,0,,3412,conventional hydropower
+Geothermal,3199.04,148.9488,1.2584,0,,3412,geothermal
+CSP,8210.8,92.9656,3.64,0,,3412,Solar Thermal
+Nuclear,6962.8,132.444,2.5792,0,,10443,Nulear-LWR
+Biomass,4704.96,136.8848,5.2624,0,,13500,Biomass

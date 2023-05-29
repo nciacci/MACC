@@ -1,0 +1,26 @@
+﻿state,Incentive,s_flag,w_flag,grant,Amount,Multiplier,Source
+AZ,Solar and Wind Equipment Sales Tax Exemption,1,1,0,-0.056,CAPEX,Link
+CA,Sales and Use Tax Exemption for Electric Power Generation and Storage Equipment,1,1,0,-0.0725,CAPEX,Link
+CO,Sales and Use Tax Exemption for Renewable Energy Equipment,1,1,0,-0.029,CAPEX,Link
+CT,Sales and Use Tax Exemption for Solar and Geothermal Systems,1,0,0,-0.0635,CAPEX,Link
+IN,Sales and Use Tax Exemption for Electrical Generating Equipment,1,1,0,-0.07,CAPEX,Link
+IA,Renewable Energy Equipment Exemption,1,1,0,-0.06,CAPEX,Link
+KY,Tax Exemption for Large-Scale Renewable Energy Projects,1,1,0,-0.06,CAPEX,Link
+MD,Sales and Use Tax Exemption for Renewable Energy Equipment,1,0,0,-0.06,CAPEX,Link
+MA,Renewable Energy Equipment Sales Tax Exemption,1,0,0,-0.0625,CAPEX,Link
+MN,Solar Energy Sales Tax Exemption,1,0,0,-0.06875,CAPEX,Link
+NE,Sales and Use Tax Exemption for Community Renewable Energy Projects,1,0,0,-0.055,CAPEX,Link
+NV,Renewable Energy Sales and Use Tax Abatement,1,1,0,-0.0685,CAPEX,Link
+NH,Commercial & Industrial Solar Rebate Program,1,0,1,-10000,CAPEX,Link
+NJ,Solar Energy Sales Tax Exemption,1,0,0,-0.06625,CAPEX,Link
+NJ,Edison Innovation Clean Energy Manufacturing Fund,1,0,1,-300000,CAPEX,Link
+NM,Solar Energy Gross Receipts Tax Deduction,1,0,0,-0.05,CAPEX,Link
+NY,Solar Sales Tax Exemption,1,0,0,-0.08875,CAPEX,Link
+ND,Sales and Use Tax Exemption for Electrical Generating Facilities,1,1,0,-0.05,CAPEX,Link
+RI,Renewable Energy Products Sales and Use Tax Exemption,1,0,0,-0.07,CAPEX,Link
+SD,Renewable Energy Facility Sales and Use Tax Reimbursement,1,1,0,-0.045,CAPEX,Link
+TN,Sales Tax Credit for Clean Energy Technology,1,1,0,-0.07,CAPEX,Link
+UT,Alternative Energy Sales Tax Exemption,1,1,0,-0.061,CAPEX,Link
+WA,Renewable Energy Sales and Use Tax Exemption,1,0,0,-0.065,CAPEX,Link
+WI,Renewable Energy Sales Tax Exemptions,1,0,0,-0.05,CAPEX,Link
+national,,,,,-0.4,CAPEX,
