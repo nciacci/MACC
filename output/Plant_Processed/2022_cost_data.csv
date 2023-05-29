@@ -1,7 +1,0 @@
-primary_fuel,capital_cost_per_kw,fixed_om_per_kw_year,variable_om_per_mwh,storage_cap_per_kw,storage_om_per_kw_year,heat_rate_btu_per_kwh,Notes,fuel_price_per_mmbtu
-Coal,4664.745917,111.9797045,13.67103423,0.0,0.0,8638,USC,2.06
-Gas,961.5653859,26.18251532,1.714969369,0.0,0.0,6431,CC single shaft,5.15
-Gas_CC,961.5653859,26.18251532,1.714969369,0.0,0.0,6431,CC single shaft,5.15
-Gas_SC,2080.18645,56.23345586,4.189981982,0.0,0.0,9905,CT-industrial,5.15
-Solar,1091.170991,19.44125428,0.0,1234.968468,30.87387387,3412,PV with tracking and 4 hr battery storage ,0.0
-Wind,1324.813838,41.11054414,0.0,1234.968468,30.87387387,3412,Wind and 4 hr battery storage ,0.0
